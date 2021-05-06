@@ -27,24 +27,28 @@ class _InputPageState extends State<InputPage> {
             color: Colors.amber,
             child: Column(
               children: [
-                Container(
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(30),
-                    color: Colors.grey.withOpacity(0.3),
-                    boxShadow: [
-                      BoxShadow(
-                        blurRadius: 80,
-                        offset: Offset.zero,
-                      )
-                    ],
-                  ),
-                  padding: EdgeInsets.all(10),
-                  child: Text(
-                    input,
-                    style: GoogleFonts.nunito(
-                      color: Color(0xFFF9F9F9),
+                Row(
+                  children: [
+                    Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(30),
+                        color: Colors.grey.withOpacity(0.3),
+                        boxShadow: [
+                          BoxShadow(
+                            blurRadius: 80,
+                            offset: Offset.zero,
+                          )
+                        ],
+                      ),
+                      padding: EdgeInsets.all(10),
+                      child: Text(
+                        input,
+                        style: GoogleFonts.nunito(
+                          color: Color(0xFFF9F9F9),
+                        ),
+                      ),
                     ),
-                  ),
+                  ],
                 ),
                 SizedBox(
                   height: 15,
