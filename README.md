@@ -23,11 +23,12 @@ Clone the repo to your machine and follow these steps.
 <li>Plug your android device to your computer</li>
 <li>Enable USB Debugging and authorize your computer to do it on your phone</li>
 <li>Open your CLI(command line interface) and navigete to this downloaded repo on your machine</li>
-<li>Run the command below</li>
+<li>Run the commands below</li>
 </ol>
 
-
-<pre><code class="shell">flutter install</code></pre>
+>```
+>flutter build apk; flutter install
+>```
 
 ## About Us
 If you are Moroccan and you want to learn new things in different fields of programming,
